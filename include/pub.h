@@ -59,6 +59,13 @@ int binary_search(int array[], int n, int x);
 int recursive_binary_search(int array[], int left, int right, int x);
 
 
-int selection_sort(int array, int n);
+/****************************************************************/
+/************************   SORT         ************************/
+/****************************************************************/
+int selection_sort(int array[], int n);
+int insertion_sort(int array[], int n);
+int bubble_sort(int array[], int n);
+int merge_sort(int array[], int start, int end);
+int quick_sort(int arr[], int l, int r);
 
 #endif
